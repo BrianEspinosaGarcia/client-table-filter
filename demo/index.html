@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="module">
+        import '../client-table-filter-component.js';
+    </script>
+    <title>ClientTableFilterComponent</title>
+    <style>
+        .grid-component {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+        <i src="./Img/Estatus.png"></i>
+        <client-table-filter-component class="grid-component"></client-table-filter-component>
+
+
+        <script>
+            const tableGrid = document.querySelector('client-table-filter-component');
+            
+            tableGrid.clients = [
+                {
+                    "id": 1,
+                    "nameClient": 'BBVA',
+                    "status": true,
+                    "subcounts": 'Icono-Subcuentas',
+                    "rss": 'Icono-RazonSocial',
+                    "hours": 'Icono-Horas',
+                    "actions": 'Icono-Actions'
+                },
+                { 
+                    "id": 2,
+                    "nameClient": 'Comex',
+                    "status": false,
+                    "subcounts": 'Icono-Subcuentas',
+                    "rss": 'Icono-RazonSocial',
+                    "hours": 'Icono-Horas',
+                    "actions": 'Icono-Actions'
+                },
+                {
+                    "id": 3,
+                    "nameClient": 'Andromeda',
+                    "status": true,
+                    "subcounts": 'Icono-Subcuentas',
+                    "rss": 'Icono-RazonSocial',
+                    "hours": 'Icono-Horas',
+                    "actions": 'Icono-Actions'
+                },
+                {
+                    "id": 4,
+                    "nameClient": 'Microsoft',
+                    "status": false,
+                    "subcounts": 'Icono-Subcuentas',
+                    "rss": 'Icono-RazonSocial',
+                    "hours": 'Icono-Horas',
+                    "actions": 'Icono-Actions'
+                },
+                {
+                    "id": 5,
+                    "nameClient": 'VEVO',
+                    "status": true,
+                    "subcounts": 'Icono-Subcuentas',
+                    "rss": 'Icono-RazonSocial',
+                    "hours": 'Icono-Horas',
+                    "actions": 'Icono-Actions'
+                },
+                {
+                    "id": 6,
+                    "nameClient": 'JAFRA',
+                    "status": false,
+                    "subcounts": 'Icono-Subcuentas',
+                    "rss": 'Icono-RazonSocial',
+                    "hours": 'Icono-Horas',
+                    "actions": 'Icono-Actions'
+                },
+                {
+                    "id": 7,
+                    "nameClient": 'Bonafont',
+                    "status": true,
+                    "subcounts": 'Icono-Subcuentas',
+                    "rss": 'Icono-RazonSocial',
+                    "hours": 'Icono-Horas',
+                    "actions": 'Icono-Actions'
+                },
+                {
+                    "id": 8,
+                    "nameClient": 'PAper mate',
+                    "status": true,
+                    "subcounts": 'Icono-Subcuentas',
+                    "rss": 'Icono-RazonSocial',
+                    "hours": 'Icono-Horas',
+                    "actions": 'Icono-Actions'
+                },
+                {
+                    "id": 9,
+                    "nameClient": 'Modatelas',
+                    "status": true,
+                    "subcounts": 'Icono-Subcuentas',
+                    "rss": 'Icono-RazonSocial',
+                    "hours": 'Icono-Horas',
+                    "actions": 'Icono-Actions'
+                },
+                {
+                    "id": 10,
+                    "nameClient": 'Nike',
+                    "status": true,
+                    "subcounts": 'Icono-Subcuentas',
+                    "rss": 'Icono-RazonSocial',
+                    "hours": 'Icono-Horas',
+                    "actions": 'Icono-Actions'
+                }];
+                tableGrid.statusIconAble  = './Img/Estatus.png';
+                tableGrid.subcountsIcon = './Img/Subcuentas.png';
+                tableGrid.rssIcon = './Img/RazónSocial.png';
+                tableGrid.hoursIcon = './Img/Horas.png';
+                tableGrid.actionsIcon = './Img/Acciones.png';
+
+            
+        </script>   
+</body>
+</html>

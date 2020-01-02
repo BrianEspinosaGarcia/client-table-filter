@@ -1,0 +1,26 @@
+{
+  "name": "@catsys/client-table-filter-component",
+  "version": "1.0.0",
+  "description": "Catsys component generated",
+  "main": "client-table-filter-component.js",
+  "keywords": [
+    "lit-element",
+    "component"
+  ],
+  "author": "autogenered <hello@catsys.com>",
+  "license": "MIT",
+  "scripts": {
+    "karma": "karma",
+    "test": "karma start"
+  },
+  "dependencies": {
+    "@vaadin/vaadin-date-picker": "^4.0.5",
+    "@vaadin/vaadin-grid": "^5.5.0",
+    "@vaadin/vaadin-select": "^2.1.6",
+    "lit-element": "^2.0.0"
+  },
+  "devDependencies": {
+    "@open-wc/testing": "^0.9.11",
+    "@open-wc/testing-karma": "^0.4.7"
+  }
+}
